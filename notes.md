@@ -1,0 +1,5 @@
+- Would have rather used PSL but image was missing some php extensions
+- Why still php8.0? Missed enums, readonly, and ctor property promotion 
+- For unit handling I'd rather use existing libraries
+- Composer json requires php8.0 but docker image uses 8.1
+- Because of composer conflicts could not install psalm and php-cs-fixer 
